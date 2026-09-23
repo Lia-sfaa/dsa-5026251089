@@ -1,5 +1,5 @@
 package lw01.prelab;
-
+//2
 public abstract class PrintJob implements Chargeable {
     private String id;
     private int pages;

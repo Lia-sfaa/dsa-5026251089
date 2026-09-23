@@ -1,5 +1,5 @@
 package lw01.prelab;
-
+//3
 public class MonoPrint extends PrintJob {
 
     public MonoPrint(String id, int pages) {

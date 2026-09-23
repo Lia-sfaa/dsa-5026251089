@@ -16,7 +16,7 @@ public class ColourPrint extends PrintJob {
         } else {
             total += (10 * 1500) + ((pages - 10) * 1000);
         }
-        
+        //bisa (return total + 2000;)
         return total;
     }
 
