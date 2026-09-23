@@ -7,7 +7,7 @@ public class MotorcycleWash extends WashService {
 
     @Override
     public int calculateCharge() {
-        return (15000 * getDays())+ 5000;
+        return ((15000 * getDays())+ 5000) * getUnits();
     }
 
     @Override

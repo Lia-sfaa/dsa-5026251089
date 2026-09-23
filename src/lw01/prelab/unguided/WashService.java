@@ -22,6 +22,10 @@ public abstract class WashService implements Billable {
         return days;
     }
 
+    public int getUnits() {
+        return units;
+    }
+
     public abstract int calculateCharge();
 
     public int calculateCharge(int units) {

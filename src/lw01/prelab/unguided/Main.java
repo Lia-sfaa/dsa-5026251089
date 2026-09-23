@@ -23,7 +23,7 @@ public static void main(String[] args) {
         scanner.close();
 
         for (WashService wash : washes) {
-            System.out.println(wash.summary() + " | " + wash.calculateCharge(wash.getDays()));
+            System.out.println(wash.summary());
         }
     }
 }
