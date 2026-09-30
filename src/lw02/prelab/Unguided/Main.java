@@ -106,7 +106,7 @@ public class Main {
         System.out.println("=== Failed Orders ===");
         while (!failed.isEmpty()) {
             String[] o = failed.pop();
-            System.out.println(o[0] + " : " + o[1] + " : " + o[2] + " : " + o[3]);  
+            System.out.println(o[0] + " " + o[1] + " " + o[2] + " " + o[3]);  
         }
         System.out.println();
     }
