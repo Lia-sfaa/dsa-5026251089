@@ -77,3 +77,42 @@ public class Main {
     }
     
 }
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//         // ... (inisialisasi variabel/loop transaksi)
+
+//         int balance = Integer.parseInt(customer[1]);
+
+//         if (type.equals("DEPOSIT")) {
+//             balance += amount;
+//             customer[1] = String.valueOf(balance);
+//         } else if (type.equals("WITHDRAW")) {
+//             if (amount <= balance) {
+//                 balance -= amount;
+//                 customer[1] = String.valueOf(balance);
+//             } else {
+//                 // Failed transaction -> Stack
+//                 failed.push(transaction);
+//             }
+//         }
+
+//         // Final balances
+//         System.out.println("\n=== Final Balances ===");
+//         for (String[] customer : customers) {
+//             System.out.println(customer[0] + " " + customer[1]);
+//         }
+
+//         // Failed transactions
+//         System.out.println("\n=== Failed Transactions ===");
+//         while (!failed.isEmpty()) {
+//             String[] transaction = failed.pop();
+//             System.out.println(
+//                 transaction[0] + " " +
+//                 transaction[1] + " " +
+//                 transaction[2]
+//             );
+//         }
+//     }
+// }
