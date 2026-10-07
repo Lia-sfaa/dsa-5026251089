@@ -48,6 +48,7 @@ public class Main {
                 total++;
             }
         }
+        System.out.println();
         System.out.println("=== Problem 2 ===");
         System.out.println("Unique Participants: " + total);
         
@@ -84,6 +85,7 @@ public class Main {
                 }
             }
         }
+        System.out.println();
         System.out.println("=== Problem 3 ===");
 
         for (String product : inventory.keySet()) {
