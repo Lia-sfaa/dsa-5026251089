@@ -52,10 +52,8 @@ public class Main {
                 System.out.println(target + ": FOUND at index " + index);
             } else {
                 System.out.println(target + ": NOT FOUND");
-            }
-           
+            }  
         }
         scLia.close();
     }
-    
 }
