@@ -55,9 +55,7 @@ public class Main {
             }
            
         }
-
         scLia.close();
-
     }
     
 }
