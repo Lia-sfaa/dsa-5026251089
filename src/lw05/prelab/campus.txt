@@ -10,3 +10,5 @@ Gerbang Parkir Kantin Aula Lab Studio
 4 5 2
 4 3 1
 0 5
+
+
